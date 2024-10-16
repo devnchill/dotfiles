@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Log output to a file
-exec >>~/script_log.txt 2>&1
-echo "Script run at: $(date)"
+# exec >>~/script_log.txt 2>&1
+# echo "Script run at: $(date)"
 
 # Define paths for the default wallpaper and the video
 DEFAULT_WALLPAPER="$HOME/.config/rofi/.current_wallpaper"

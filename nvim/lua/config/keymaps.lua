@@ -8,11 +8,11 @@ local mapkey = require("util.keymapper").mapvimkey
 vim.api.nvim_set_keymap("n", "<C-u>", "8k", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("n", "<C-d>", "8j", { noremap = true, silent = true })
 
--- Saving and exiting the file
-mapkey("<leader>wr", ":w<CR>", "n")
-mapkey("<leader>wq", ":wq<CR>", "n")
-mapkey("<leader>q", ":q<CR>", "n")
-mapkey("<leader>Q", ":q!<CR>", "n")
+-- -- Saving and exiting the file
+vim.keymap.set("n", "<leader>wr", ":w<CR>")
+vim.keymap.set("n", "<leader>wq", ":wq<CR>")
+vim.keymap.set("n", "<leader>q", ":q<CR>")
+vim.keymap.set("n", "<leader>Q", ":q!<CR>")
 
 -- Buffer Navigation
 mapkey("<Tab>", ":bnext<CR>", "n")

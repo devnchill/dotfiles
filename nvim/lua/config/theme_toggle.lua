@@ -2,6 +2,7 @@
 local themes = {
 	{ name = "everforest", config = nil },
 	{ name = "catppuccin", config = nil },
+	{ name = "onedark", config = nil },
 	{ name = "tokyonight", config = nil },
 }
 local current_theme_index = 1
