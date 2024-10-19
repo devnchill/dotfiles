@@ -7,7 +7,7 @@ function RunJsProgram()
 	local current_dir = vim.fn.expand("%:p:h")
 
 	-- Command to run the JavaScript file with Node.js
-	local cmd = "cd " .. current_dir .. " && node " .. current_file_with_ext
+	local cmd = "cd " .. current_dir .. " && node " .. current_file_with_ext .. "; exec $SHELL"
 
 	-- Use ToggleTerm to open a terminal and send the command
 	local Terminal = require("toggleterm.terminal").Terminal
