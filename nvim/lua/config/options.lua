@@ -24,7 +24,7 @@ opt.smartcase = true
 opt.hlsearch = false
 
 -- Appearance
-vim.opt.guifont = "VictorMono Nerd Font:h17"
+opt.guifont = "VictorMono Nerd Font:h17"
 opt.number = true
 opt.relativenumber = true
 opt.termguicolors = true
@@ -59,4 +59,3 @@ opt.showmode = false
 opt.foldmethod = "expr"
 opt.foldexpr = "nvim_treesitter#foldexpr()"
 opt.foldlevel = 99
-

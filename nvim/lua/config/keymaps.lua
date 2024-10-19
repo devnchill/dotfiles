@@ -4,9 +4,9 @@ vim.g.mapleader = " "
 -- Function for creating mappings
 local mapkey = require("util.keymapper").mapvimkey
 
--- Remap Ctrl+U and Ctrl+D to move 7 lines up and down
-vim.api.nvim_set_keymap("n", "<C-u>", "8k", { noremap = true, silent = true })
-vim.api.nvim_set_keymap("n", "<C-d>", "8j", { noremap = true, silent = true })
+-- -- Remap Ctrl+U and Ctrl+D to move 7 lines up and down
+-- vim.api.nvim_set_keymap("n", "<C-u>", "8k", { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap("n", "<C-d>", "8j", { noremap = true, silent = true })
 
 -- -- Saving and exiting the file
 vim.keymap.set("n", "<leader>wr", ":w<CR>")
