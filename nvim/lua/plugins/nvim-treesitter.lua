@@ -4,6 +4,9 @@ local config = function()
 		indent = {
 			enable = true,
 		},
+    fold={
+      enable=true,
+    },
 		-- autotag = {
 		-- 	enable = true,
 		-- },

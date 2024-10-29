@@ -26,9 +26,9 @@
             "keyColor": "yellow"
         },
         {
-            "type": "wm",
-            "key": " ",
-            "keyColor": "blue"
+          "type": "packages",
+          "key": "󰏖 ",
+          "keyColor": "31",
         },
         {
             "type": "shell",

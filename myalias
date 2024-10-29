@@ -1,8 +1,10 @@
 # My Custom Alias
 # alias fastfetch='fastfetch --logo-color-1 blue'
-alias cc='clear'
+alias sup='sudo pacman -Syu'
+alias s='sudo pacman -S'
+alias sr='sudo pacman -Rns'
+alias lg="lazygit"
 alias v='nvim'
+alias cc='clear'
 alias ..='cd ..'
 alias ../..='cd ../..'
-alias sup='sudo pacman -Syu'
-alias lg="lazygit"
