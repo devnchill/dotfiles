@@ -13,6 +13,13 @@ in
   home.homeDirectory = "/home/viena";
   home.stateVersion = "25.11";
 
+  home.file.".config/kitty/kitty.conf".source = ./kitty/kitty.conf;
+  home.file.".config/niri/config.kdl".source = ./niri/config.kdl;
+  home.file.".config/waybar".source = ./waybar;
+  home.file.".local/bin".source = ./bin;
+
+
+
   home.packages = with pkgs; [
     brave
     vesktop
@@ -36,7 +43,7 @@ in
       settings = {
       user={
           name="Viena";
-          email = "user.email=169875752+devnchill@users.noreply.github.com";
+          email = "169875752+devnchill@users.noreply.github.com";
       };
       core.editor="nvim";
       init.defaultbranch="main";
