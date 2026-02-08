@@ -11,4 +11,7 @@
 		snacks-nvim
 	];
   };
+	home.packages = with pkgs;[
+		lua-language-server
+	];
 }
