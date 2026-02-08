@@ -9,6 +9,8 @@
 	plugins = with pkgs.vimPlugins;[
 		gruvbox-nvim
 		snacks-nvim
+		mini-icons
+		which-key-nvim
 	];
   };
 	home.packages = with pkgs;[
