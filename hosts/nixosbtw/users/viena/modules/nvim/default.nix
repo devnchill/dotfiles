@@ -11,6 +11,7 @@
 		snacks-nvim
 		mini-icons
 		which-key-nvim
+		blink-cmp
 	];
   };
 	home.packages = with pkgs;[
