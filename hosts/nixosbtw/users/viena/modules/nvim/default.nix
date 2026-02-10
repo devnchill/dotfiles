@@ -20,8 +20,14 @@
     ];
 
     extraPackages = with pkgs; [
-      stylua
+      # LSP (some might come from pkgs installed in programming module)
+      nil
       lua-language-server
+      docker-language-server
+      yaml-language-server
+
+      # FORMATTERS
+      stylua
       prettierd
       prettier
       nixfmt
