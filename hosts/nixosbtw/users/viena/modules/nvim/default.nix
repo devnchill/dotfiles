@@ -7,6 +7,7 @@
     vimAlias = true;
     vimdiffAlias = true;
     plugins = with pkgs.vimPlugins; [
+      nvim-treesitter.withAllGrammars
       gruvbox-material
       snacks-nvim
       mini-icons
@@ -25,13 +26,19 @@
       lua-language-server
       docker-language-server
       yaml-language-server
+      gopls
+      haskell-language-server
+      jdt-language-server
+      vscode-json-languageserver
+      ruff
+      typescript-language-server
+      pyright
 
       # FORMATTERS
       stylua
       prettierd
       prettier
       nixfmt
-      ruff
       ormolu
     ];
 
